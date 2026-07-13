@@ -15,3 +15,9 @@ test('responsive snapshot', async ({ page }) => {
 });
 
 ```
+# macOS/Linux
+export PERCY_TOKEN=<your_token>
+# Windows PowerShell
+$env:PERCY_TOKEN="<your_token>"
+
+npx percy exec -- npx playwright test
