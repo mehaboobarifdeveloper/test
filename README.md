@@ -94,7 +94,9 @@ test('responsive snapshot', async ({ page }) => {
   });
 });
 ```
+```
 version: 2
 snapshot:
   widths: [375, 1280]
   min-height: 1024
+```
