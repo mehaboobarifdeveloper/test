@@ -65,7 +65,7 @@ npx percy exec --verbose -- npx playwright test
 The verdict is always in the pre-test output. You must see `Percy has started!` before `Running "npx playwright test"`. If instead you see an error there (port in use, browser launch failure, skipping visual tests), that's the real problem — everything after ("Percy is not running") is just fallout. Paste those pre-test lines if it fails again.
 
 
-
+```
 import { test } from '@playwright/test';
 import percySnapshot from '@percy/playwright';
 
@@ -93,3 +93,4 @@ test('responsive snapshot', async ({ page }) => {
     widths: [375, 768, 1280],
   });
 });
+```
