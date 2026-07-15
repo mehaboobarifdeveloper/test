@@ -100,3 +100,12 @@ snapshot:
   widths: [375, 1280]
   min-height: 1024
 ```
+
+
+```bash
+cat >> ~/.bashrc << 'EOF'
+<Put all y our export commands here>
+EOF
+source ~/.bashrc 
+
+```
